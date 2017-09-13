@@ -1,0 +1,202 @@
+body {
+    font-family: trebuchet ms;
+}
+
+header {
+    background: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+.start-vote {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #27ae60;
+    margin: 4% auto;
+    font-size: 33px;
+    color: #27ae60;
+    text-align: center;
+    transition: all ease-out 300ms;
+    padding: 131px 2px;
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#finish {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.start-vote:hover {
+    background: #27ae60;
+    color: #fff;
+}
+
+.start-vote.hidden {
+    margin-top: -20%;
+    opacity: 0;
+}
+
+form {
+    width: auto;
+    max-width: 50%;
+    margin: 5% auto;
+    padding-bottom: 0;
+}
+
+.form-head {
+    border-bottom: 2px solid #FAFAFA;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+fieldset:last-of-type .form-head {
+    border-bottom: none;
+}
+
+ul.candidates {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+ul.candidates li {
+    display: inline-block;
+}
+
+form fieldset {
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    overflow: hidden;
+    /*    display: none;*/
+    
+    transition: opacity ease-out 300ms;
+}
+
+fieldset.active {
+    display: block;
+}
+
+.buttonset {
+    width: 30%;
+    margin: 30px auto;
+}
+
+.show-block {
+    display: block;
+}
+
+.buttonset button {
+    width: 100%;
+    padding: 8px 2px;
+    font-size: 1.1em;
+    border-radius: 3px;
+    border: 2px solid #27ae60;
+    color: #27ae60;
+    background: transparent;
+}
+
+.buttonset button:hover {
+    color: #fff;
+    background: #27ae60;
+}
+
+ul.candidates label {
+    width: 200px;
+    margin: 2%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputs {
+    background: #27ae60;
+    padding: 8px 4px;
+    border-radius: 0px 0px 8px 8px;
+    color: #fff;
+    position: relative;
+}
+
+.radio {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.inputs input:checked + span {
+    background: #bfbfbf;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6) inset;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.name {
+    padding-left: 5px;
+}
+
+fieldset.opened {
+    height: auto;
+}
+
+.imgHolder {
+    width: 100%;
+    height: 200px;
+    background: #c4c4c4 url(sides_edited_edited.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#fixedNotification {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background: #2980b9;
+    top: -50px;
+    z-index: 30;
+    color: #fff;
+    font-size: 19px;
+    transition: top ease-out 220ms;
+    padding: 14px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+#fixedNotification.shown {
+    top: 0;
+}
+
+#signOut {
+    padding: 4px 18px;
+    border: 1px solid #32CE74;
+    border-radius: 4px;
+    background: #27AE60;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    right: 8px;
+    font-family: sans-serif;
+    top: 9px;
+    text-decoration: none;
+}
+
+#change-pass {
+    right: 95px;
+}
+
+.nav-button:nth-of-type(1) {
+    right: 100px;
+}

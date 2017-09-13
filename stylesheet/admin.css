@@ -1,0 +1,160 @@
+.dashboard {
+    list-style: none;
+    margin: 30px 0px 0px 50px;
+    width: 270px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+label .inputs {
+    background: #2980B9;
+}
+
+.dashboard ul {
+    margin: 0;
+    box-shadow: 0 0 5px #888;
+    padding: 0;
+}
+
+.dashboard li {
+    background: #2980B9;
+    padding: 14px;
+    font-size: 17px;
+    cursor: pointer;
+    padding-left: 30px;
+    color: #fff;
+    position: relative;
+    font-family: century gothic;
+}
+
+.dashboard li:first-of-type {
+    border-radius: 3px 3px 0 0;
+}
+
+.dashboard li:last-of-type {
+    border-radius: 0 0 3px 3px;
+}
+
+.dashboard li:hover {
+    background: #246b9a;
+}
+
+.dashboard li.active {
+    background: #246b9a;
+}
+
+form fieldset {
+    height: auto!important;
+    border: medium none;
+    width: 88%;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+
+#resetpass fieldset label {
+    margin-right: 0;
+}
+
+#results label {
+    cursor: default;
+}
+
+#resetpass form {
+    max-width: 69%;
+    padding-bottom: 30px;
+}
+
+#resetpass input {
+    width: 69.7%;
+}
+
+section.subWrapper form {
+    max-width: 80%;
+}
+
+.fixed {
+    position: fixed;
+    top: 1px;
+}
+
+.subWrapper {
+    width: 68%;
+    margin: 30px 20px;
+    background: #fff;
+    float: right;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #2980B9;
+}
+
+[name=addCandidte] {
+    width: 50%;
+    padding: 16px;
+}
+
+[name=addCandidte] * {
+    margin: 5px auto;
+}
+
+[name=addCandidte] input[type=text] {
+    padding: 10px 15px;
+    width: 50%;
+    font-size: 17px;
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.11) inset;
+    background: #F2F2F2;
+}
+
+.photo {
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 10%;
+    display: block;
+}
+
+[name=photoPath] {
+    display: none;
+}
+
+#signOut {
+    background: #2980B9;
+    border-color: #2980B9;
+}
+
+.file,
+.addcandidate {
+    box-shadow: 0px 0px 5px #888;
+    background: #2980B9;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 8px;
+    border: none;
+    height: 39px;
+    box-sizing: border-box;
+}
+
+#post {
+    border: 2px solid #2980B9;
+    padding: 5px 23px;
+    color: #2980B9;
+    font-weight: bold;
+}
+
+div.inputs .radio {
+    border-radius: 4px!important;
+    right: 4px;
+    top: 3px;
+    margin: 0 auto;
+    width: 90%;
+    height: 29px;
+    position: relative;
+    display: block;
+    box-shadow: none;
+    color: #2980B9;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
